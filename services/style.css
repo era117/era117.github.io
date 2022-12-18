@@ -67,8 +67,9 @@ body{
  margin-right: 15px;
 }
 .subject__image{
-	max-width: 370px;
-	max-height: 370px;
+	width: 370px;
+	height: 370px;
+	object-fit: cover;
 }
 .btn.light{
 
