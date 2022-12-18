@@ -4,6 +4,8 @@
   margin: 0;
   border: 0;
 }
+
+
 *,*:before,*:after{
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -41,6 +43,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 body{
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	
 
 }
 .container{
@@ -72,27 +75,27 @@ body{
 .back__link{
 	text-decoration: none;
 	border-radius: 10px;
-	border:1px solid green;
+	border:1px solid rgb(58, 95, 58);
 	padding: 15px 20px;
 	color: #000;
 	transition: all .6s ease;
 }
 .back__link:hover{
-	background-color: green;
-	color: #fff;
+	background-color: #365236;
+	color: rgb(255, 255, 255);
 }
 
 
 .subject__image{
-	width: 100%;
-	height: 100%;
+	width: 380px;
+	height: 300px;
 	object-fit: cover;
 }
 .btn.light{
 
 }
 .subject.dark{
-	color: #fff;
+	color: rgb(61, 61, 61);
 	background-color:rgba(0, 0, 0, 0.9);
 }
 h1{
@@ -112,18 +115,18 @@ h1{
 	margin-right: 20px;
 	background-color: #000;
 	opacity: .8;
-	color: #FFF;
+	color: rgb(255, 255, 255);
 	border-radius: 20px;
 	padding: 10px 20px;
 	transition: all .5s ease;
 }
 .subject__btn:hover{
-	background-color: green;
+	background-color: rgb(28, 70, 28);
 	color: #fff;
 }
 
 .active{
-	background-color: green;
+	background-color:  rgb(28, 70, 28);
 	color: #fff;
 }
 .anime{
