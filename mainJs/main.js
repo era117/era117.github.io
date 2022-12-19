@@ -1,9 +1,9 @@
 $(function() {
+
 	// fixed header
 	let menu = $("#menu")
 	let burger = $(".burger")
 	let header = $("#header")
-	let intro = $("#intro")
 	let introH = intro.innerHeight();
 	let scrollPos = $(window).scrollTop();
 	checkScroll(scrollPos, introH);
@@ -16,20 +16,6 @@ $(function() {
 	});
 
 
-
-
-// SmOOTHSCROLL======================================
-$("[data-scroll]").on("click", function(event){
-	event.preventDefault();
-	let blockID = $(this).data('scroll')
-	let blockOffset = $(blockID).offset().top;
-	console.log(blockOffset);
-
-$("html, body").animate({
-	scrollTop: blockOffset 
-},700);
-
-});
 
 
 function checkScroll(scrollPos, introH){
