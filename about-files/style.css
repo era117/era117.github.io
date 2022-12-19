@@ -8,8 +8,6 @@
 }
 
 
-/*  active practice
-  */
 
 *, *:before, *:after {
   box-sizing: border-box;
@@ -209,7 +207,7 @@ body {
 
 /*about*/
 .about {
-  margin: 100px 0 70px;
+  margin: 70px 0 70px;
 }
 .about__row {
   display: flex;
@@ -223,10 +221,11 @@ body {
 }
 .about__image {
   display: block;
-  width: 200px;
+  width: 250px;
   height: 250px;
   object-fit: cover;
   margin-bottom: 30px;
+  border-radius: 7px;
 }
 .about__Img{
 }
@@ -382,11 +381,9 @@ cursor: pointer;
 
 .back__row{
   display: flex;
-  justify-content: left;
-  padding: 50px 0 0 40px;
-  position: fixed;
-  top: 0;
-  left: 0;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0 40px 0;
   z-index: 999;
 }
 .back__item{
