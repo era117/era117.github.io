@@ -60,6 +60,7 @@ body{
 .subject__wrap{
 	text-align: center;
 	margin-bottom: 40px;
+	color: #fff;
 }
 .subject__row{
 	display: flex;
@@ -74,6 +75,11 @@ body{
  	max-width: 370px;
 	max-height: 370px;
 }
+.subject__title{
+	font-size: 32px;
+	letter-spacing: 1.2px;
+}
+
 .back__row{
 	display: flex;
 	justify-content: space-between;
@@ -83,8 +89,9 @@ body{
 	border-radius: 10px;
 	border:1px solid rgb(58, 95, 58);
 	padding: 15px 20px;
-	color: #000;
+	color:#fff;
 	transition: all .6s ease;
+	font-size: 17px;
 }
 .back__link:hover{
 	background-color: #365236;
@@ -96,6 +103,10 @@ body{
 	width: 380px;
 	height: 300px;
 	object-fit: cover;
+	border-radius: 15px;
+}
+.subject__item{
+	padding-top: 5px;
 }
 
 .subject.dark{
@@ -110,6 +121,7 @@ h1{
 .subject__text{
 	line-height: 20px;
 	letter-spacing: 1px;
+	color: #fff;
 }
 .subject__filter{
 	margin-top: 20px;
@@ -162,6 +174,7 @@ h1{
 	.subject__btn{
 		margin-right: 10px;
 		padding: 7px 17px;
+		margin-bottom: 10px;
 	}
 }
 
