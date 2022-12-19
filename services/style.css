@@ -5,7 +5,7 @@
   border: 0;
 }
 body{
-	background: url(https://catherineasquithgallery.com/uploads/posts/2021-02/1613212060_4-p-cherno-sinii-fon-na-telefon-4.jpg);
+	background: url(https://phonoteka.org/uploads/posts/2022-01/1642959122_38-phonoteka-org-p-sinii-neonovii-fon-40.jpg);
 }
 
 *,*:before,*:after{
@@ -104,6 +104,7 @@ body{
 h1{
 	font-weight: 700;
 	margin-bottom: 40px;
+	font-size: 16px;
 }
 .subject__text{
 	line-height: 20px;
