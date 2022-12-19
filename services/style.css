@@ -99,8 +99,8 @@ body{
 }
 
 .subject.dark{
-	color: rgb(61, 61, 61);
-	background-color:rgba(0, 0, 0, 0.9);
+	color: rgb(255, 255, 255);
+	background-color:rgba(143, 143, 143, 0.9);
 }
 h1{
 	font-weight: 700;
