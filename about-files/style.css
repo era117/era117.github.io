@@ -8,8 +8,6 @@
 }
 
 
-/*  active practice
-  */
 
 *, *:before, *:after {
   box-sizing: border-box;
@@ -382,7 +380,8 @@ cursor: pointer;
 
 .back__row{
   display: flex;
-  justify-content: left;
+  justify-content: space-between;
+  align-items: center;
   padding: 50px 0 0 40px;
   position: fixed;
   top: 0;
