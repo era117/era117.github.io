@@ -140,6 +140,7 @@ body {
 .header__logo {
   font-size: 24px;
   font-weight: 800;
+  letter-spacing: 1.5px;
 }
 .header__menu a {
   font-size: 14px;
