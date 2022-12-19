@@ -540,6 +540,13 @@ body {
   padding: 20px 20px 0 0;
 }
 
+/* .works:hover{
+ transform: scale(1.05);
+} */
+
+.works_photo{
+  border-radius: 10px;
+}
 .testimonials__title {
   text-transform: uppercase;
   margin-bottom: 145px;
@@ -624,10 +631,6 @@ textarea {
   display: flex;
   justify-content: left;
   padding-bottom: 30px;
-}
-.back__item{
-  
-
 }
 .back__link{
     background-color: #7a956b;

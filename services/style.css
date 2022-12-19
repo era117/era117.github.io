@@ -4,7 +4,12 @@
   margin: 0;
   border: 0;
 }
-
+.container{
+	width: 100%;
+	height: 100%;
+	background-image: linear-gradient(rgba(0,0,0,0.3),transparent), url(https://robodk.com/blog/wp-content/uploads/2020/12/5-Quick-Ways-to-Speed-Up-Robot-Programming-scaled.jpg);
+	background-color: #000;
+}
 
 *,*:before,*:after{
   -moz-box-sizing: border-box;
