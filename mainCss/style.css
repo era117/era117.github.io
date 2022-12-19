@@ -540,9 +540,10 @@ body {
   padding: 20px 20px 0 0;
 }
 
-/* .works:hover{
+
+ .works:hover{
  transform: scale(1.05);
-} */
+}
 
 .works_photo{
   border-radius: 10px;
