@@ -207,7 +207,7 @@ body {
 
 /*about*/
 .about {
-  margin: 100px 0 70px;
+  margin: 70px 0 70px;
 }
 .about__row {
   display: flex;
@@ -383,10 +383,7 @@ cursor: pointer;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 50px 0 0 40px;
-  position: fixed;
-  top: 0;
-  left: 0;
+  padding: 20px 0 40px 0;
   z-index: 999;
 }
 .back__item{
