@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+  <style >
+    *{
+  box-sizing: border-box;
+  padding:0;
+  margin:0;
+  background-color: lightpink;
+}
+
+body{
+  height:100vh;
+  max-height:100vh;
+  max-width:100vw;
+  padding: 60px;
+  overflow:hidden;
+}
+
+#root{
+  height:80%;
+  max-height:80%;
+  position: relative;
+}
+
+#div {
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  border-radius: 20px;
+}
+h1{
+  color: white;
+}
+.root__title{
+  text-align: center;
+  cursor: pointer;
+}
+.back__link{
+  text-decoration: none;
+  color: white;
+}
+
+  </style>
+
+</head>
+<body>
+  <div class="root__title">
+    <h1>You registered successfully!<br>You can play:>    <a href="index.html" class="back__link">Click here</a>
+</h1>
+
+  </div>
+  <div id="root">
+    </div>
+  <script >
+    const parentBody = document.getElementById("root");
+    let i = 0, interval
+
+function addDiv() {
+  const div = document.createElement('div');    div.id = 'div';
+  div.style.top = `${Math.random() * 100}%`;
+  div.style.left = `${Math.random() * 100}%`;
+  div.style.backgroundColor = `rgb(${Math.random() * 100},${Math.random() * 100},${Math.random() * 100})`;
+  parentBody.appendChild(div);                            
+   }
+
+function multipleDiv(){
+  i=0; 
+  while(i<29){
+    addDiv();
+    i++;
+  }
+}
+
+window.onload = multipleDiv();
+
+
+
+const container = document.querySelector('div');
+container.addEventListener('dblclick', (event) => {
+  event.target.remove();
+});
+
+
+var allDivs = document.getElementsByTagName("div"); 
+var prev = false;
+  for(ii = 0; ii < allDivs.length; ii++) { 
+    allDivs[ii].onclick = function() {
+    if (prev) { prev.style.zIndex = 1; }
+        this.style.zIndex = 30;
+        prev = this;
+    }
+}
+ 
+
+</script>
+</body>
+</html>
