@@ -108,6 +108,9 @@ body{
 .subject__item{
 	padding-top: 5px;
 }
+.subject__item:hover{
+	transform: scale(.9);
+}
 
 .subject.dark{
 	color: rgb(255, 255, 255);
