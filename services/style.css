@@ -81,7 +81,7 @@ body{
 }
 
 .back__row{
-	display: flex;
+	display: flex;/*для блокового отображения*/
 	justify-content: space-between;
 }
 .back__link{
@@ -151,12 +151,12 @@ h1{
 }
 .anime{
 	transform: scale(0);
-	opacity: 0;
+	opacity: 0;/*Непрозра́чность*/
 }
 .hide{
 	animation-name:hide ;
 	animation-duration:0.5s;
-	animation-fill-mode:forwards;
+	animation-fill-mode:forwards; /*После проигрывания анимации элемент останется в том положении, где закончилась анимация, а не прыгнет в исходную точку*/
 }
 @keyframes hide{
 	0%{

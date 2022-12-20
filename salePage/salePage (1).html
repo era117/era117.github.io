@@ -111,8 +111,16 @@ document.getElementById("second").innerHTML =seconds;
 }, 0); /*delay for 0 millisec*/
 
 
+const re = /salePage/gi;
+const link = this.window.location ;
+console.log(link);
+
+
 function changeLocation(){
-this.window.location = "form/index.html";
+  // бул localhost емес тек file мен!! егер loclhost болу ушын http://localhost керек  
+  this.window.location.replace("file:///C:/Users/admin/Desktop/era117.github.io/tetser/index.html");
+  // this.window.location = link.replace(re, "/tetser/index.html")
+// console.log(this.window.location.replace("/salePage/", '/tetser/'));
 }
 </script>
 </body>

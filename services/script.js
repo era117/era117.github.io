@@ -13,12 +13,11 @@ const list = document.querySelector('.subject__filter'),
 const listItem = document.querySelectorAll('.subject__btn');
 
 
-
 function filter(){
   list.addEventListener('click', event => {
     const targetId = event.target.dataset.id;
     const target = event.target;
-
+  
     listItem.forEach(listItem => listItem.classList.remove('active'));
     target.classList.add('active');
 
